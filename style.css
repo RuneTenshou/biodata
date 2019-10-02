@@ -32,10 +32,10 @@ blockquote{
 
 .box2{
     position: absolute;
-    height  : 50%;
+    height  : 53%;
     width   : 60%;
     background-color:lightgray; 
-    top     : 35%;
+    top     : 32%;
     left    : 30%;
     padding : 0% 0% 0% 3%;
     border: 2px solid black;
@@ -49,8 +49,8 @@ blockquote{
     background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/71278869_2223036521138480_3223245227615584256_n.jpg?_nc_cat=107&_nc_oc=AQlgiZVSGBoXeytPpVyNePAxRKdQ4w5SZHrmZfzVEKTMcGb5v8I1Do1iverPHrYojH8&_nc_ht=scontent-sin6-2.xx&oh=9d51eaac419117d8a0644418a7989154&oe=5E007229");
     overflow:hidden;
     width   : 30%;
-    height  : 50%;
-    top: 35%;
+    height  : 53%;
+    top: 32%;
     left: 6%;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -231,4 +231,40 @@ blockquote{
     overflow-x : hidden;
     border: 2px solid black;
 
+}
+
+.box12{
+    position: absolute;
+    height  : 60%;
+    width   : 62%;
+    background-color:lightgray; 
+    top     : 39%;
+    left    : 15%;
+    padding : 0% 0% 0% 0%;
+    border-radius: 18px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: 2px solid black;
+   padding-top: 30px;
+   padding-left: 30px;
+
+}
+
+.gambarkalkulator{
+    position: absolute;
+    height : 50%;
+    width : 40%;
+    top : 37%;
+    left : 45%;
+    z-index: 2;
+}
+
+#x, #y, #z{
+ height: 50px;
+ width: 200px;
+ font-size: 30px;
+
+}
+.hasilnya{
+    margin-left: 20px;
 }
